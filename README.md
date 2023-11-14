@@ -9,10 +9,13 @@
 * After creating the project, go to the project settings.
 * In the "General" tab, scroll down to the "Your apps" section.
 * There you will see (click on </> ):
+
 <img style="width:50rem" src="https://github.com/DanyilNiemtsov/DanyilNiemtsov/assets/142193142/0962f3fb-6043-45e3-87b8-637cc361b44c"/>
+
 * create a nickname (don't use Firebase hosting)
 * Then press on Register App
 * The only thing you will need is to copy is the firebase config: 
+
 <img style="width:30rem" src="https://github.com/DanyilNiemtsov/DanyilNiemtsov/assets/142193142/e006970b-a62a-47fa-928b-392faab4c16e"/>
 <h3>3. Update HTML file:</h3>
 

@@ -1,5 +1,11 @@
 const firebaseConfig = {
-    // your config
+    apiKey: "YOUR_API_KEY",
+    authDomain: "YOUR_AUTH_DOMAIN",
+    projectId: "YOUR_PROJECT_ID",
+    storageBucket: "YOUR_STORAGE_BUCKET",
+    messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+    appId: "YOUR_APP_ID"
+    // change to your real credentials
   };
 
   firebase.initializeApp(firebaseConfig);
@@ -11,11 +17,19 @@ const firebaseConfig = {
   const messageInput = document.getElementById("message");
   const sendButton = document.getElementById("send");
 
-  sendButton.addEventListener("click", () => {
+  const sendMessage = () => {
     const messageText = messageInput.value;
-    if (messageText.trim() !== "") {
+    if (messageText.trim() !== '') {
       messagesRef.push({ text: messageText });
-      messageInput.value = "";
+      messageInput.value = '';
+    }
+  };
+
+  sendButton.addEventListener('click', sendMessage);
+
+  messageInput.addEventListener('keydown', (event) => {
+    if (event.key === 'Enter') {
+      sendMessage();
     }
   });
 

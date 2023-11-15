@@ -26,4 +26,10 @@
 * Go to all products and click on realtime database
 * Press on create database 
 
+<h3>5. Running website:</h3>
+
+1. If you want to host your website, just upload the files and you are ready to go
+2. just open your html file
+3. or just use localhost
+
 <h3 align="center">For a head start, look at the code above</h3>

@@ -17,9 +17,9 @@
 * The only thing you will need is to copy is the firebase config: 
 
 <img style="width:30rem" src="https://github.com/DanyilNiemtsov/DanyilNiemtsov/assets/142193142/e006970b-a62a-47fa-928b-392faab4c16e"/>
-<h3>3. Update HTML file:</h3>
+<h3>3. Update JavaScript file:</h3>
 
-* Use the HTML file given and add the following content ``(look at the code above)``:
+* Use the JavaScript file given and add the following content ``(look at the code above)``:
 * Replace the placeholders in the Firebase configuration object with the actual credentials you copied from the Firebase Console.
 <h3>4. Create a new realtime database:</h3>
 

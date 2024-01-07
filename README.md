@@ -25,6 +25,9 @@
 
 * Go to all products and click on realtime database
 * Press on create database 
+* make sure your realtime database is on locked mode with the rules given below
+
+<img style="width:50rem" src="https://github.com/DanyilNiemtsov/Realtime-Firebase-chat-app/assets/142193142/d7f2ed07-cfdd-42ac-998e-075f48c1fdeb"/>
 
 <h3>5. Running website:</h3>
 
